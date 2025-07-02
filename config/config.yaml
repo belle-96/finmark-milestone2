@@ -1,0 +1,4 @@
+raw_data_path: data/raw/transactions.csv
+cleaned_data_path: data/processed/transactions_clean.csv
+drop_columns: ["debug_log", "temp_id"]
+date_columns: ["created_at"]

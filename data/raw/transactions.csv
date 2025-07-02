@@ -1,0 +1,9 @@
+user_id,transaction_amount,created_at,debug_log,temp_id
+U001,300,01/05/2025 10:15,log1,tmp-001
+U002,,02/05/2025 11:20,log2,tmp-002
+U003,570,03/05/2025 12:30,log3,tmp-003
+,600,invalid_date,log4,tmp-004
+U005,0,05/05/2025 9:10,log5,tmp-005
+U006,690,05/09/2025,log6,tmp-006
+U007,290,05/19/2025 10:00,log7,tmp-007
+U008,567,07/09/2025,log8,tmp-008
