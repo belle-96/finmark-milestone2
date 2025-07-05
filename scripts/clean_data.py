@@ -13,6 +13,9 @@ except Exception as e:
     print("Failed to load raw data:", e)
     sys.exit(1)
 
+# Convert transaction_amount to numeric, coercing errors to NaN
+df["transaction_amount"] = pd.to_numeric(df["transaction_amount"], errors="coerce")
+
 # Check for required columns before proceeding
 required_columns = ["user_id", "transaction_amount", "created_at"]
 missing = [col for col in required_columns if col not in df.columns]
