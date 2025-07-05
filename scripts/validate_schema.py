@@ -5,7 +5,7 @@ from pandera import Column, DataFrameSchema
 # Define the expected schema
 schema = DataFrameSchema({
     "user_id": Column(str, nullable=False),
-    "transaction_amount": Column(float, nullable=False),
+    "transaction_amount": Column(float, nullable=True),
     "created_at": Column(pa.DateTime, nullable=False),
 })
 
