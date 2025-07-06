@@ -1,0 +1,101 @@
+user_id,transaction_amount,created_at,product,comment,discount
+U001,742.39,8/2/2023 14:00,Desk,Missing user_id,0.03
+U002,958.46,8/3/2023 14:00,Tripod,Valid,0.02
+U003,89.33,8/4/2023 14:00,Monitor,Expensive,0.08
+U004,460.78,8/5/2023 14:00,Monitor,Small purchase,0
+U005,129.75,8/6/2023 14:00,Notebook,Has dollar sign,0.18
+U006,225.43,8/7/2023 14:00,Laptop,Test entry,0.05
+U007,416.8,8/8/2023 14:00,Laptop Sleeve,,0.15
+U008,216.41,8/9/2023 14:00,Microphone,Big spend,0
+U009,,8/10/2023 14:00,Laptop Sleeve,Nice,0.02
+,240.12,8/11/2023 14:00,Tripod,,0.16
+U011,379.3,89.99,Charger,Smooth transaction,0.08
+U012,400.81,8/13/2023 14:00,Mousepad,All good,0
+U013,270.9,invalid_date,Microphone,Amount is NaN,0.16
+U014,925.42,8/15/2023 14:00,Tablet,Missing amount,0.12
+U015,635.77,8/16/2023 14:00,Charger,Has dollar sign,0.12
+U016,758.76,8/17/2023 14:00,Mousepad,Nice deal,0
+U017, Not paid ,8/18/2023 14:00,Tablet,Big spend,0.11
+U018,,8/19/2023 14:00,Tablet,Fast shipping,0.17
+U019,67.07,8/20/2023 14:00,Webcam,Small purchase,0.15
+,831.48,8/21/2023 14:00,Laptop,OK,0
+U021,779.96,8/22/2023 14:00,Book,Valid,0.03
+U022,947.65,89.99,Microphone,Missing user_id,0.2
+U023,277.25,8/24/2023 14:00,Keyboard,,0.13
+U024,441.12,8/25/2023 14:00,Powerbank,OK,0
+U025,230.21,8/26/2023 14:00,Tablet,,0.04
+U026,236.49,invalid_date,Webcam,Good value,0.06
+U027,,8/28/2023 14:00,Powerbank,,0.07
+U028,457.36,8/29/2023 14:00,Charger,Valid,0
+U029,107.49,8/30/2023 14:00,Mousepad,Wrong date format,0.12
+,945.22,8/31/2023 14:00,Chair,Big spend,0.19
+U031,196.7,9/1/2023 14:00,Laptop,,0.2
+U032,565.56,9/2/2023 14:00,Desk,Missing user_id,0
+U033,941.36,89.99,Powerbank,Good value,0.02
+U034, Not paid ,9/4/2023 14:00,Phone Stand,Missing user_id,0.11
+U035,399.84,9/5/2023 14:00,Battery,Nice quality,0.1
+U036,,9/6/2023 14:00,Tripod,Valid,0
+U037,840.12,9/7/2023 14:00,Tripod,,0.01
+U038,393.09,9/8/2023 14:00,Tripod,Nice deal,0.01
+U039,993.87,invalid_date,Keyboard,Smooth transaction,0.02
+,518.49,9/10/2023 14:00,Chair,Nice deal,0
+U041,493.64,9/11/2023 14:00,Desk,All good,0.07
+U042,70.38,9/12/2023 14:00,Phone Stand,Missing amount,0.1
+U043,976.49,9/13/2023 14:00,Desk,Missing user_id,0.04
+U044,100.12,89.99,Microphone,Nice deal,0
+U045,,9/15/2023 14:00,Desk,,0.01
+U046,575.86,9/16/2023 14:00,Chair,Fast shipping,0.02
+U047,734.1,9/17/2023 14:00,Microphone,Good value,0.19
+U048,345.65,9/18/2023 14:00,Tablet,Missing user_id,0
+U049,645.01,9/19/2023 14:00,Backpack,Invalid date,0.15
+,599.36,9/20/2023 14:00,Monitor,,0.09
+U051, Not paid ,9/21/2023 14:00,Backpack,,0.02
+U052,666.15,invalid_date,Phone Stand,Nice quality,0
+U053,395.06,9/23/2023 14:00,Monitor,,0.13
+U054,,9/24/2023 14:00,Keyboard,Invalid date,0.07
+U055,923.75,89.99,Charger,Nice,0.16
+U056,442.6,9/26/2023 14:00,Tablet,Smooth transaction,0
+U057,764.2,9/27/2023 14:00,Charger,,0.11
+U058,540.14,9/28/2023 14:00,Book,Invalid date,0.16
+U059,328.61,9/29/2023 14:00,Pen,Small purchase,0.16
+,52.11,9/30/2023 14:00,Mousepad,,0
+U061,780.51,10/1/2023 14:00,Mousepad,Expensive,0.09
+U062,370.7,10/2/2023 14:00,Book,,0.08
+U063,,10/3/2023 14:00,Mouse,Has dollar sign,0.16
+U064,280.66,10/4/2023 14:00,Pen,Missing user_id,0
+U065,546.19,invalid_date,Laptop,Smooth transaction,0.19
+U066,730.43,89.99,Webcam,Small purchase,0.02
+U067,916.93,10/7/2023 14:00,Desk,,0.12
+U068, Not paid ,10/8/2023 14:00,Backpack,Valid,0
+U069,931.08,10/9/2023 14:00,Backpack,Nice deal,0.09
+,400.75,10/10/2023 14:00,Phone Stand,Test entry,0.14
+U071,595.79,10/11/2023 14:00,Pen,Big spend,0.15
+U072,,10/12/2023 14:00,Laptop,Missing amount,0
+U073,314.87,10/13/2023 14:00,Laptop Sleeve,Valid,0.02
+U074,191.03,10/14/2023 14:00,Laptop,Invalid date,0.16
+U075,908.52,10/15/2023 14:00,Keyboard,Big spend,0.13
+U076,90.99,10/16/2023 14:00,Mousepad,Typo in amount,0
+U077,838.72,89.99,Monitor,Smooth transaction,0.19
+U078,172.83,invalid_date,Phone Stand,OK,0.07
+U079,594.58,10/19/2023 14:00,Mousepad,Wrong date format,0.07
+,897.95,10/20/2023 14:00,Battery,Expensive,0
+U081,,10/21/2023 14:00,Monitor,Expensive,0.17
+U082,778.62,10/22/2023 14:00,Tripod,Nice,0.07
+U083,599.02,10/23/2023 14:00,Notebook,Good value,0.14
+U084,132.6,10/24/2023 14:00,Webcam,Nice quality,0
+U085, Not paid ,10/25/2023 14:00,Charger,Big spend,0.1
+U086,319.51,10/26/2023 14:00,Monitor,Wrong date format,0.11
+U087,139.99,10/27/2023 14:00,Charger,Missing amount,0.12
+U088,645.33,89.99,Battery,Smooth transaction,0
+U089,657.68,10/29/2023 14:00,Tripod,Missing amount,0.02
+,,10/30/2023 14:00,Laptop,Small purchase,0.06
+U091,431.23,invalid_date,Battery,Expensive,0.02
+U092,681.58,11/1/2023 14:00,Tripod,Typo in amount,0
+U093,571.48,11/2/2023 14:00,Tripod,Invalid date,0.19
+U094,898.59,11/3/2023 14:00,Tablet,,0.03
+U095,688.47,11/4/2023 14:00,Monitor,Wrong date format,0.05
+U096,573.04,11/5/2023 14:00,Book,Wrong date format,0
+U097,107.74,11/6/2023 14:00,Phone Stand,All good,0.17
+U098,544.54,11/7/2023 14:00,Battery,Smooth transaction,0.19
+U099,,89.99,Charger,,0.13
+,341.9,11/9/2023 14:00,Desk,Has dollar sign,0

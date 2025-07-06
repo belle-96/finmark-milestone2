@@ -1,6 +1,12 @@
 import pandas as pd
-import pandera as pa
-from pandera import Column, DataFrameSchema
+import pandera.pandas as pa
+from pandera.pandas import Column, DataFrameSchema
+import yaml
+import os
+
+# Load config
+with open("config/config.yaml", "r") as f:
+    config = yaml.safe_load(f)
 
 # Define the expected schema
 schema = DataFrameSchema({
@@ -10,7 +16,7 @@ schema = DataFrameSchema({
 })
 
 # Load the cleaned dataset
-df = pd.read_csv("data/processed/transactions_clean.csv")
+df = pd.read_csv(config["validation"]["processed_data_path"])
 
 # Convert created_at column to datetime in case it's still string
 df["created_at"] = pd.to_datetime(df["created_at"], errors="coerce")
