@@ -1,0 +1,50 @@
+user_id,transaction_amount,created_at,product,comment,discount
+U001,250.5,8/1/2023 14:33,Book,Nice deal,0.05
+U002,5000,8/2/2023 10:20,Pen,Typo in amount,0.1
+U003,500,invalid_date,Notebook,Invalid date,0
+,330.75,8/3/2023 16:45,Backpack,All good,0.15
+U005,275,8/4/2023 12:00,Notebook,Missing user_id,0.05
+U006,,8/5/2023 9:00,Mouse,Missing amount,0.08
+U007,199.99,8/6/2023 13:20,Keyboard,Good value,0.1
+U008,700,8/7/2023 18:15,Monitor,Big spend,0.2
+U009,450.25,8/8/2023 10:05,Chair,,0.12
+U010,300.1,8/9/2023 11:45,Desk,Fast shipping,0.15
+U011,120,8/10/2023 8:30,Mousepad,Small purchase,0
+,89.99,8/11/2023 9:45,Charger,Wrong date format,0.03
+U013,550,8/12/2023 12:00,Phone Stand,Nice,0.05
+U014,400,8/13/2023 14:00,Tablet,Has dollar sign,0.07
+U015,380.5,8/14/2023 15:20,Laptop Sleeve,Valid,0.08
+U016,800,8/15/2023 16:45,Laptop,Expensive,0.1
+U017, Not paid ,8/16/2023 11:00,Webcam,Amount is NaN,0.06
+U018,620.4,8/17/2023 9:15,Microphone,Nice quality,0.09
+U019,420.75,8/18/2023 14:10,Tripod,Smooth transaction,0.04
+,100,8/19/2023 17:00,Battery,OK,0.01
+U021,230,8/20/2023 18:30,Powerbank,Test entry,0.02
+U022,,,,,
+U023,,,,,
+U024,,,,,
+U025,,,,,
+U026,,,,,
+U027,,,,,
+,,,,,
+U029,,,,,
+U030,,,,,
+U031,,,,,
+U032,,,,,
+U033,,,,,
+U034,,,,,
+U035,,,,,
+,,,,,
+U037,,,,,
+U038,,,,,
+U039,,,,,
+U040,,,,,
+U041,,,,,
+U042,,,,,
+U043,,,,,
+,,,,,
+U045,,,,,
+U046,,,,,
+U047,,,,,
+U048,,,,,
+U049,,,,,

@@ -1,4 +1,12 @@
-raw_data_path: data/raw/transactions.csv
-cleaned_data_path: data/processed/transactions_clean.csv
-drop_columns: ["debug_log", "temp_id"]
-date_columns: ["created_at"]
+data:
+  raw_data_path: data/raw/transactions_3.csv
+  drop_columns: ["debug_log", "temp_id", "product", "comment", "discount"]
+  date_columns: ["created_at"]
+  output_folder: "data/processed" 
+  base_cleaned_filename: "transaction_cleaned"
+
+logging:
+  log_file_path: "logs/fallback_log.txt"
+
+validation:
+  processed_data_path: data/processed/transactions_cleaned_1.csv
